@@ -8,6 +8,13 @@ export default function Log121725() {
         imageHeight: '400px'
     }
 
+    const reactVariantImage = {
+        src: '/src/assets/select-variant.png',
+        alt: 'React Variant Selection Screenshot',
+        imageWidth: '600px',
+        imageHeight: '400px'
+    }
+
 
     return (
         <>  
@@ -28,13 +35,25 @@ export default function Log121725() {
             </p>
             <br/>
             <p>Next, I had to choose a Framework</p>
-            <pr>There are many options, but I selected React since that's what I'm trying to get strong fundamentals on</pr>
+            <p>There are many options, but I selected React since that's what I'm trying to get strong fundamentals on</p>
             <img 
                 src={reactSetupImage.src} 
                 alt={reactSetupImage.alt}
                 width={reactSetupImage.imageWidth}
                 height={reactSetupImage.imageHeight}
             />
+            <br/>
+            <p>Next was selecting a variant. I know that TypeScript is popular because it's strict and integrate well with 
+            typing in .NET backends, but in all React projects I've used so far I've used JavaScript. So that's what I'll be 
+            using here </p>
+            <img 
+                src={reactVariantImage.src} 
+                alt={reactVariantImage.alt}
+                width={reactVariantImage.imageWidth}
+                height={reactVariantImage.imageHeight}
+            />
+            <p>I chose not to use rolldown-vite because I have no idea what that does</p>
+            <p>Last option was "Install with npm and start now". This was an obvious yes for me.</p>
         </>
     )
 }
