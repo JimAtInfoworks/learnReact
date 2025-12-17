@@ -9,9 +9,9 @@ export default function Log121725() {
     }
 
     const reactVariantImage = {
-        src: '/src/assets/select-variant.png',
+        src: '/src/assets/select-framework-variant.png',
         alt: 'React Variant Selection Screenshot',
-        imageWidth: '600px',
+        imageWidth: '450px',
         imageHeight: '400px'
     }
 
