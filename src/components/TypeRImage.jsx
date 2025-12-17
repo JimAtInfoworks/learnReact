@@ -1,13 +1,12 @@
 import { React } from 'react';
 
-export default function TypeRImage() {
+export function MyImage() {
     const typeRImage = {
         src: '/src/assets/typer.jpeg',
         alt: '2020 Civic Type R',
         imageWidth: '320px',
         imageHeight: '180px'
     }
-
 
     return (
         <>
@@ -19,3 +18,14 @@ export default function TypeRImage() {
         </>
     )
 }
+
+export default function TypeRImage() {
+    return (
+        <MyImage />
+    )
+}
+
+
+
+
+

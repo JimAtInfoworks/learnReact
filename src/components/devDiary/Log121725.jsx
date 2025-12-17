@@ -16,6 +16,13 @@ export default function Log121725() {
     }
 
 
+    const functionExportFunctionExample = {
+        src: '/src/assets/Type R function and export component.png',
+        alt: 'Shows a function and export function in the same component',
+        imageWidth: "450px",
+        imageHeight: "600px"
+    }
+
     return (
         <>  
             <h1>Dev Diary - 12/17/25</h1>
@@ -54,6 +61,19 @@ export default function Log121725() {
             />
             <p>I chose not to use rolldown-vite because I have no idea what that does</p>
             <p>Last option was "Install with npm and start now". This was an obvious yes for me.</p>
+            <br />
+            <h2>After Initial Setup</h2>
+            <p>Going through the first few sections of the react.dev quick start guide it talks about the difference between
+            functions and default functions. In this case, a default function is the primary export of a React component
+            . This means that you can declare multiple functions inside of a .jsx file, but the component that can be referenced
+            by other raect components is the one with export default function XYZ(). Here's an example below</p> 
+            
+            <img 
+                src={functionExportFunctionExample.src}
+                alt={functionExportFunctionExample.src}
+                width={functionExportFunctionExample.imageWidth}
+                height={functionExportFunctionExample.imageHeight}
+            />
         </>
-    )
+    )   
 }
