@@ -2,14 +2,14 @@ import react from 'react';
 
 export default function Log121725() {
     const reactSetupImage = {
-        src: '/src/assets/select-framework.png',
+        src: '/src/assets/12-17-25/select-framework.png',
         alt: 'React Setup Command Line Screenshot',
         imageWidth: '600px',
         imageHeight: '400px'
     }
 
     const reactVariantImage = {
-        src: '/src/assets/select-framework-variant.png',
+        src: '/src/assets/12-17-25/select-framework-variant.png',
         alt: 'React Variant Selection Screenshot',
         imageWidth: '450px',
         imageHeight: '400px'
@@ -17,16 +17,23 @@ export default function Log121725() {
 
 
     const functionExportFunctionExample = {
-        src: '/src/assets/Type R function and export component.png',
+        src: '/src/assets/12-17-25/Type R function and export component.png',
         alt: 'Shows a function and export function in the same component',
         imageWidth: "450px",
         imageHeight: "600px"
     }
 
+    const conditionalRenderingExample = {
+        src: 'src/assets/12-17-25/conditional-rendering.png',
+        alt: 'An example of conditional rendeirng',
+        imageWidth: "700px",
+        imageHeight: '400px'
+    }
+
     return (
         <>  
             <h1>Dev Diary - 12/17/25</h1>
-            <h2>Just as a precurrosr, I already have worked in React in a professional enviroment for many </h2>
+            <h2>Just as a precursor, I already have worked in React in a professional enviroment for many years</h2>
             <p>Today my focus is going back to the basics and learning React concepts and fundamentals from square one. one</p>
             <p>The firs thing I wanted to learn was how to set up a react project. To my understanding the most common way to start up a react
                 project these days is to use Vite. Vite is a build tool that quickly sets up a development environment for creating web applications.
@@ -70,9 +77,24 @@ export default function Log121725() {
             
             <img 
                 src={functionExportFunctionExample.src}
-                alt={functionExportFunctionExample.src}
+                alt={functionExportFunctionExample.alt}
                 width={functionExportFunctionExample.imageWidth}
                 height={functionExportFunctionExample.imageHeight}
+            />
+
+            <br />
+            <p>
+            In the react.dev section about conditional rendering, it references an isLogged in stateful variable. I don't currently have a
+            log in page but I did want to take a crack at conditional rendering. So what I did instead was use my DevDiary component and my
+             TypeRImage component as two components that can be rendered, but only one at a time. I created a stateful varibale (is this the
+             correct name?) called isLoggedIn and when pressed it'll either set content to my log or the type R image. 
+            </p>
+
+            <img 
+                src={conditionalRenderingExample.src}
+                alt={conditionalRenderingExample.alt}
+                width={conditionalRenderingExample.imageWidth}
+                height={conditionalRenderingExample.imageHeight}
             />
         </>
     )   

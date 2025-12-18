@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import Log121725 from './devDiary/log121725.jsx';
+import Log121725 from './dev-diary/log121725.jsx';
 import TypeRImage from './TypeRImage.jsx';
 
 export default function HomePage() {
