@@ -9,6 +9,7 @@ export default function Log_12_18_25 () {
 
     return (
         <>
+            <h1>Dev Diary - 12/18/25</h1>
             <h1>Learning about the files generated with a new React project</h1>
 
             <h2>App.css</h2>
