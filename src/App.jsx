@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Log121725 from './components/dev-diary/log121725.jsx'
+import Log121725 from './components/dev-diary/Log_12_17_25.jsx'
 import HomePage from './components/HomePage.jsx'
 
 export function MyButton() {
