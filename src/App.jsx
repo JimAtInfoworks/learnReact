@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Log121725 from './components/dev-diary/Log_12_17_25.jsx'
 import HomePage from './components/HomePage.jsx'
+import { Router }  from "./router.jsx";
+import { React } from 'react';
 
 export function MyButton() {
   return (
@@ -15,9 +17,9 @@ export default function App() {
 
   return (
     <>
-      {/* <MyButton /> */}
+      <MyButton />
       {/* <Log121725 /> */}
-      <HomePage />
+      {/* <Router /> */}
     </>
   )
 }
