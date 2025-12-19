@@ -74,6 +74,10 @@ export default function Log_12_19_25 () {
             <h2>Getting started with ReactRouter Declarative Mode</h2>
             <p>First things first I need to run npm i react-router to obtain the dependencies for my solution. </p>
             <p>Next is to modify my main.jsx file to inject ReactRouter's BrowserRouter import and wrap it around my base component</p>
+
+            <p>Final note of the day, after hours of reading it looks like I'll need a mix of react-router and react-router-dom to accomplish routing in my 
+                application. I'm still not sure why I need both but in my next session I'll figure it out and keep things moving
+            </p>
         </>
     ) 
 
